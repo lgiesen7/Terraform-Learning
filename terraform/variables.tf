@@ -15,7 +15,7 @@ variable "vsphere_server" {
 description = "The vsphere_cluster"
 }
 
-/*
+
 variable "vsphere_provider_source" {
   description = "The vSphere provider source"
   type = string
@@ -24,9 +24,9 @@ variable "vsphere_provider_source" {
 variable "vsphere_provider_version" {
   description = "The vSphere provider version"
   type = string
-  default = "2.0.2"
+  default = ">=2.0.2"
 }
-*/
+
 
 #variable "name" {
 #  description = "The name (prefix) for all objects"
